@@ -1,0 +1,15 @@
+C:\Users\panonit\source\repos\DAN_XLI_Milica_Karetic\DAN_XLI_Milica_Karetic\bin\Debug\DAN_XLI_Milica_Karetic.exe.config
+C:\Users\panonit\source\repos\DAN_XLI_Milica_Karetic\DAN_XLI_Milica_Karetic\bin\Debug\DAN_XLI_Milica_Karetic.exe
+C:\Users\panonit\source\repos\DAN_XLI_Milica_Karetic\DAN_XLI_Milica_Karetic\bin\Debug\DAN_XLI_Milica_Karetic.pdb
+C:\Users\panonit\source\repos\DAN_XLI_Milica_Karetic\DAN_XLI_Milica_Karetic\obj\Debug\DAN_XLI_Milica_Karetic.csprojAssemblyReference.cache
+C:\Users\panonit\source\repos\DAN_XLI_Milica_Karetic\DAN_XLI_Milica_Karetic\obj\Debug\MainWindow.g.cs
+C:\Users\panonit\source\repos\DAN_XLI_Milica_Karetic\DAN_XLI_Milica_Karetic\obj\Debug\App.g.cs
+C:\Users\panonit\source\repos\DAN_XLI_Milica_Karetic\DAN_XLI_Milica_Karetic\obj\Debug\DAN_XLI_Milica_Karetic_MarkupCompile.cache
+C:\Users\panonit\source\repos\DAN_XLI_Milica_Karetic\DAN_XLI_Milica_Karetic\obj\Debug\DAN_XLI_Milica_Karetic_MarkupCompile.lref
+C:\Users\panonit\source\repos\DAN_XLI_Milica_Karetic\DAN_XLI_Milica_Karetic\obj\Debug\MainWindow.baml
+C:\Users\panonit\source\repos\DAN_XLI_Milica_Karetic\DAN_XLI_Milica_Karetic\obj\Debug\DAN_XLI_Milica_Karetic.g.resources
+C:\Users\panonit\source\repos\DAN_XLI_Milica_Karetic\DAN_XLI_Milica_Karetic\obj\Debug\DAN_XLI_Milica_Karetic.Properties.Resources.resources
+C:\Users\panonit\source\repos\DAN_XLI_Milica_Karetic\DAN_XLI_Milica_Karetic\obj\Debug\DAN_XLI_Milica_Karetic.csproj.GenerateResource.cache
+C:\Users\panonit\source\repos\DAN_XLI_Milica_Karetic\DAN_XLI_Milica_Karetic\obj\Debug\DAN_XLI_Milica_Karetic.csproj.CoreCompileInputs.cache
+C:\Users\panonit\source\repos\DAN_XLI_Milica_Karetic\DAN_XLI_Milica_Karetic\obj\Debug\DAN_XLI_Milica_Karetic.exe
+C:\Users\panonit\source\repos\DAN_XLI_Milica_Karetic\DAN_XLI_Milica_Karetic\obj\Debug\DAN_XLI_Milica_Karetic.pdb
