@@ -12,11 +12,11 @@
         <ProgressBar HorizontalAlignment="Left" Name="progressBar" Height="17" Margin="51,265,0,0" VerticalAlignment="Top" Width="436"/>
         <TextBox HorizontalAlignment="Left" Name="txtText" Height="117" Margin="51,64,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="436" TextChanged="TxtText_TextChanged"/>
         <Label Content="Broj kopija" HorizontalAlignment="Left" Margin="261,210,0,0" VerticalAlignment="Top" FontSize="14" RenderTransformOrigin="-0.211,0.483"/>
-        <TextBox HorizontalAlignment="Left" Height="23" Name ="txtCopyNum" Margin="356,216,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="131" RenderTransformOrigin="0.405,0.783" TextChanged="TxtCopyNum_TextChanged"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Name ="txtCopyNum" Margin="356,216,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="131" RenderTransformOrigin="0.405,0.783" TextChanged="TxtCopyNum_TextChanged" />
         <DocumentViewer HorizontalAlignment="Left" Margin="639,153,-192,0" VerticalAlignment="Top" Width="100"/>
         <Label Content="" HorizontalAlignment="Left" Margin="215,296,0,0" VerticalAlignment="Top"/>
-        <Label Content="Label" Name="lblMessage" HorizontalAlignment="Left" Margin="215,296,0,0" VerticalAlignment="Top"/>
-        <Label Content="Label" Name="lblErr" HorizontalAlignment="Left" Margin="215,327,0,0" VerticalAlignment="Top"/>
+        <Label Content="" Name="lblMessage" HorizontalAlignment="Left" Margin="215,296,0,0" VerticalAlignment="Top"/>
+        <Label Content="" Name="lblErr" HorizontalAlignment="Left" Margin="215,327,0,0" VerticalAlignment="Top"/>
 
     </Grid>
 </Window>

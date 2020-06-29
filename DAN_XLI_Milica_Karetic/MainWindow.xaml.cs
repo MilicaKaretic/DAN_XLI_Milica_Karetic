@@ -54,21 +54,22 @@ namespace DAN_XLI_Milica_Karetic
         private void worker_DoWork(object sender, DoWorkEventArgs e)
         {
             int c = 100 / int.Parse(copyNum);
-            btnCancel.IsEnabled = true;
+
             for (int i = 1; i <= int.Parse(copyNum); i++)
             {
                 Thread.Sleep(1000);
                 string fileName = (i).ToString() + "." + DateTime.Now.ToString("dd_MM_yyyy_hh_mm");
-                Print(fileName, text);
-
+                
                 if(backgroundWorker.CancellationPending)
                 {
                     e.Cancel = true;
                     backgroundWorker.ReportProgress(0);
                     return;
                 }
+                Print(fileName, text);
                 backgroundWorker.ReportProgress(i * c);
             }
+            e.Result = "Completed";
         }
 
         private void worker_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
@@ -80,6 +81,11 @@ namespace DAN_XLI_Milica_Karetic
             else if (e.Error != null)
             {
                 lblMessage.Content = e.Error.Message;
+            }
+            else
+            {
+                lblMessage.Content = e.Result.ToString();
+                lblErr.Content = "";
             }
                     
         }
@@ -107,6 +113,7 @@ namespace DAN_XLI_Milica_Karetic
             if(!backgroundWorker.IsBusy)
             {
                 backgroundWorker.RunWorkerAsync();
+                btnCancel.IsEnabled = true;
             }
             else
             {
@@ -120,15 +127,32 @@ namespace DAN_XLI_Milica_Karetic
             TextBox objTextBox = (TextBox)sender;
             text = objTextBox.Text;
             if (text != null && copyNum != null)
+            {
                 btnPrint.IsEnabled = true;
+                //btnCancel.IsEnabled = true;
+            }
+                
         }
 
         private void TxtCopyNum_TextChanged(object sender, TextChangedEventArgs e)
         {
             TextBox objTextBox = (TextBox)sender;
             copyNum = objTextBox.Text;
+
             if (text != null && copyNum != null)
-                btnPrint.IsEnabled = true;
+            {
+                if(int.TryParse(copyNum, out int num))
+                {
+                    btnPrint.IsEnabled = true;
+                }
+                else
+                {
+                    MessageBox.Show("Please enter number");
+                }
+                
+                //btnCancel.IsEnabled = true;
+            }
+                
         }
     }
 }
